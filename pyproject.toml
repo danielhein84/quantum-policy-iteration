@@ -1,0 +1,23 @@
+###
+# (C) Copyright Siemens AG 2023
+#
+# SPDX-License-Identifier: MIT
+###
+
+[tool.poetry]
+name = "qrl"
+version = "0.1.0"
+description = "Quantum Policy Iteration via Amplitude Estimation and Grover Search"
+authors = ["Simon Wiedemann <simonw.wiedemann@tum.de>", "Daniel Hein <hein.daniel@siemens.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+qiskit = "*"
+qiskit-aer = "*"
+pathos = "*"
+matplotlib = "*"
+tqdm = "*"
+pandas = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
